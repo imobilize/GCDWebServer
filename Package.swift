@@ -15,7 +15,7 @@ let package = Package(
             targets: ["GCDWebServer"])
     ],
     targets: [
-        .target(name: "GCDWebServer")
+        .target(name: "GCDWebServer", path: "GCDWebServer")
     ],
     swiftLanguageVersions: [.v5]
 )
